@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+{% block title %} About me {% endblock %}
+{% block content %} 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg bg-body-tertiary text-light" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'home' %}">Hussain's Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" >About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'contact' %}">Contact me</a>
+            
+        </ul>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <h1 class="text-center text-primary fw-bold">From Civil Engineering to Data Science: My Transformational Journey</h1>
+    
+    <p class="lead text-center">Hello, my name is <strong>M. Hussain Khan</strong>, and I’m thrilled to share my exhilarating journey from being a <strong>civil engineer</strong> to stepping into the dynamic world of <strong>data science</strong>!</p>
+    
+    <h2 class="mt-4 text-success">Laying the Foundation: My Civil Engineering Days</h2>
+    <p>With <strong>six years of experience</strong> in civil engineering, I didn’t just build structures—I built problem-solving skills, a keen analytical mindset, and an unshakable foundation in <strong>mathematics and statistics</strong>. Working as a <strong>site and billing engineer</strong> sharpened my ability to analyze project data, optimize costs, and ensure precision in financial calculations.</p>
+    
+    <h2 class="mt-4 text-success">Acquiring New Skills: A Leap into Data Science</h2>
+    <p>Transitioning into <strong>data science</strong> wasn’t just a career move—it was a passion-driven leap into a field that excites me every day! Despite juggling a full-time job, I dedicated myself to mastering <strong>Machine Learning, Artificial Intelligence, and Data Science</strong>.</p>
+    <p>To supercharge my learning, I embraced industry-standard tools like <strong>Scikit-Learn, TensorFlow, Pandas, NumPy, SciPy, and SymPy</strong>—all of which have been instrumental in shaping my expertise.</p>
+    
+    <h2 class="mt-4 text-success">From Learning to Doing: My Hands-On Experience</h2>
+    <ul class="list-group">
+        <li class="list-group-item">✅ <strong>Sound Classification</strong> – Training AI models to recognize sound patterns</li>
+        <li class="list-group-item">✅ <strong>Image Classification</strong> – Leveraging deep learning for accurate predictions</li>
+        <li class="list-group-item">✅ <strong>Chatbot Development</strong> – Creating intelligent conversational AI solutions</li>
+    </ul>
+    
+    <h2 class="mt-4 text-success">Technical Arsenal: The Tools I Wield</h2>
+    <ul class="list-group">
+        <li class="list-group-item">📊 <strong>Pandas & NumPy</strong> – For data manipulation and analysis</li>
+        <li class="list-group-item">📈 <strong>Matplotlib & Seaborn</strong> – For stunning visual representations</li>
+        <li class="list-group-item">🤖 <strong>TensorFlow & Scikit-Learn</strong> – For building intelligent models</li>
+        <li class="list-group-item">🔥 <strong>PyTorch & Deep Learning</strong> – For advanced AI model training</li>
+        <li class="list-group-item">⚡ <strong>LangChain</strong> – For building AI-powered applications</li>
+        <li class="list-group-item">🐍 <strong>Python & Django</strong> – For web development and automation</li>
+        <li class="list-group-item">📊 <strong>MS Excel</strong> – For data analysis and reporting</li>
+        <li class="list-group-item">📝 <strong>MS Word</strong> – For documentation and report writing</li>
+        <li class="list-group-item">🗄️ <strong>SQL</strong> – For database management and querying</li>
+        <li class="list-group-item">📡 <strong>APIs & Web Scraping</strong> – For extracting and processing web data</li>
+    </ul>
+    
+    <h2 class="mt-4 text-success">Why I Switched Careers: The Driving Force</h2>
+    <p>Two powerful reasons fueled my transition into <strong>data science</strong>:</p>
+    <ul class="list-group">
+        <li class="list-group-item">🚀 <strong>Career Growth:</strong> I yearned for a field that constantly challenges and excites me with innovation.</li>
+        <li class="list-group-item">❤️ <strong>Passion for Data:</strong> I’ve always been fascinated by how data, when harnessed effectively, can <strong>solve real-world problems</strong> and <strong>drive impactful decisions</strong>.</li>
+    </ul>
+    
+    <h2 class="mt-4 text-success">What’s Happening Now?</h2>
+    <p>Currently, I’m pushing my knowledge boundaries even further by pursuing a <strong>Master’s in Mathematics</strong> from <strong>Sathyabama University of Science and Technology</strong> through an online program.</p>
+    
+    <h2 class="mt-4 text-success">The Road Ahead: What’s Next?</h2>
+    <p>The world of <strong>Artificial Intelligence</strong> is vast, and I’m eager to deep dive into <strong>Natural Language Processing (NLP)</strong> and <strong>Deep Learning</strong>—two of the most cutting-edge fields in AI.</p>
+    
+    <h2 class="mt-4 text-success">Conclusion: A Journey Worth Taking</h2>
+    <p>Transitioning from <strong>civil engineering</strong> to <strong>data science</strong> has been a thrilling ride filled with challenges, learning curves, and immense growth. I’m excited about the endless possibilities ahead and can’t wait to see how this journey unfolds!</p>
+    
+    
+    <h1 class="text-success fw-bold mt-5">My Resume</h1>
+    {% load static %}
+    <embed src="{% static '/blogs/pdfs/resume.pdf' %}" type="application/pdf" width="70%" height="400px">
+    <h3 class="text-center text-primary fw-bold">🚀 The best is yet to come! 🚀</h3>
+</div>
+
+{% endblock %}
