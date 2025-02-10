@@ -171,6 +171,9 @@ blogging/
 
 ---
 
+![Screenshot (246)](https://github.com/user-attachments/assets/9d13968d-23f3-4a34-8ffc-183be097606e)
+
+
 ## License
 
 This project is open-source and available under the MIT License.
