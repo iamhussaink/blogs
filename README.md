@@ -176,10 +176,6 @@ blogging/
 
 ![Screenshot (238)](https://github.com/user-attachments/assets/f5577c5b-15a4-4474-8e55-19993826eb2d)
 
-![Screenshot (239)](https://github.com/user-attachments/assets/5d69bfc5-f248-4020-9842-92d3f306b241)
-
-
-
 ![Screenshot (240)](https://github.com/user-attachments/assets/2413fe44-b8ad-4191-a2a0-8b46ad13b0e0)
 
 
